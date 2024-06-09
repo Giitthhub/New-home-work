@@ -1,3 +1,8 @@
+:root {
+  --main-color: #33333D;
+  --secondary-color: #FFFFFF;
+}
+
 .color0 {
     background-color: #FFFFFF;
 }
