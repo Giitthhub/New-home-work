@@ -1,19 +1,24 @@
-.color0 {
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+}
+
+.header_container {
     background-color: #FFFFFF;
 }
 
-.color1 {
+.main_container {
     background-color: #33333D;
 }
 
-.color2 {
+.details_container {
     background-color: #FFFFFF;
 }
 
-.color3 {
+.team_container {
     background-color: #f4f4f4;
 }
 
-.color4 {
+.footer_container {
     background-color: #33333D;
 }
