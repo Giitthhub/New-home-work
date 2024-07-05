@@ -1,24 +1,29 @@
-body {
-    font-family: 'Roboto', sans-serif;
-    line-height: 1.5;
+.header_container .header,
+.main_container .main,
+.details_container .details_section,
+.team_container .team_section,
+.footer_container .footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .header_container {
-    background-color: #FFFFFF;
+  padding: 60px 0;
 }
 
 .main_container {
-    background-color: #33333D;
+  padding: 60px 0;
 }
 
 .details_container {
-    background-color: #FFFFFF;
+  padding: 60px 0;
 }
 
 .team_container {
-    background-color: #f4f4f4;
+  padding: 60px 0;
 }
 
 .footer_container {
-    background-color: #33333D;
+  padding: 60px 0;
 }
