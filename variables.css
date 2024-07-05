@@ -4,3 +4,39 @@
     --grayColorDarkVariant: #5A5A5A;
     --graycolorLigtvariant: #D3D3D3;
 }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+}
+
+.header_container {
+  background-color: #FFFFFF;
+  padding: 60px 0;
+}
+
+.main_container {
+  background-color: #33333D;
+  padding: 60px 0;
+}
+
+.details_container {
+  background-color: #FFFFFF;
+  padding: 60px 0;
+}
+
+.team_container {
+  background-color: #f4f4f4;
+  padding: 60px 0;
+}
+
+.footer_container {
+  background-color: #33333D;
+  padding: 60px 0;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
