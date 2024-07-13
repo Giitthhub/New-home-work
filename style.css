@@ -1,29 +1,157 @@
-.header_container .header,
-.main_container .main,
-.details_container .details_section,
-.team_container .team_section,
-.footer_container .footer {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .header_container {
+  background-color: #FFFFFF;
   padding: 60px 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.nav_list {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav_item {
+  display: flex;
+  align-items: center;
 }
 
 .main_container {
+  background-color: #33333D;
   padding: 60px 0;
+}
+
+.main_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.main_section_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .details_container {
+  background-color: #FFFFFF;
   padding: 60px 0;
+}
+
+.details_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.details_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.details_summary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.details_images {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.details_image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .team_container {
+  background-color: #f4f4f4;
   padding: 60px 0;
 }
 
+.team_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.team_members {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.team_member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
 .footer_container {
+  background-color: #33333D;
   padding: 60px 0;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.footer_nav_list {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer_nav_item {
+  display: flex;
+  align-items: center;
+}
+
+.footer_logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
